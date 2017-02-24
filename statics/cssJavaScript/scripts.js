@@ -10,9 +10,9 @@ function updateClock ( )
   	// Choose either "AM" or "PM" as appropriate
   	var timeOfDay = ( currentHours < 12 ) ? "AM" : "PM";
     if(timeOfDay == "AM"){
-      $("#greeting").html("Good morning, Devin");
+      $("#greeting").html("Good morning, Devin: ");
     } else if(timeOfDay == "PM"){
-        $("#greeting").html("Good evening, Devin");
+        $("#greeting").html("Good evening, Devin ");
       }
   	// Convert the hours component to 12-hour format if needed
   	currentHours = ( currentHours > 12 ) ? currentHours - 12 : currentHours;
@@ -20,7 +20,7 @@ function updateClock ( )
   	currentHours = ( currentHours == 0 ) ? 12 : currentHours;
   	// Compose the string for display
   	var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
-   	$("#clock").html(currentTimeString);
+   	$("#clock").html("- " + currentTimeString);
  }
 
 $(document).ready(function()
