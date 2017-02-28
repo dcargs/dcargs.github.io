@@ -25,18 +25,74 @@
         <!-- entire page row -->
         <div class="row">
           <!-- column 1 -->
-          <div class="col-sm-4 border">
-            <h1 class="centerText">Column 1</h1>
+          <div class="col-sm-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">Code Projects</div>
+              <div class="panel-body">
+                <div class="form-group">
+                  <label for="comment">Home Page:</label>
+                  <textarea class="form-control" rows="1" id="copyTargetHome">open -a Atom Documents/homePage</textarea>
+                <button class="btn btn-primary width100" type="button" id="copyButtonHome">Copy</button>
+                </div>
+                <div class="form-group">
+                  <label for="comment">CS2830:</label>
+                  <textarea class="form-control" rows="1" id="copyTargetCS2830">open -a Atom Documents/mizzouCode/CS2830</textarea>
+                <button class="btn btn-primary width100" type="button" id="copyButtonCS2830">Copy</button>
+                </div>
+                <div class="form-group">
+                  <label for="comment">CS3380:</label>
+                  <textarea class="form-control" rows="3" id="copyTargetCS3380">open -a Atom Documents/OneDrive/MizzouDocuments/Sophomore/CS3380</textarea>
+                <button class="btn btn-primary width100" type="button" id="copyButtonCS3380">Copy</button>
+                </div>
+                <div class="form-group">
+                  <label for="comment">TCI:</label>
+                  <textarea class="form-control" rows="3" id="copyTargetTCI">open -a Atom Desktop/vagrant/vagrant_assets/vehicleserver/vehicles/index</textarea>
+                <button class="btn btn-primary width100" type="button" id="copyButtonTCI">Copy</button>
+                </div>
+                <div class="form-group">
+                  <label for="comment">Henry Website:</label>
+                  <textarea class="form-control" rows="2" id="copyTargetHenryWebsite">open -a Atom Documents/mizzouCode/henry_website</textarea>
+                <button class="btn btn-primary width100" type="button" id="copyButtonHenryWebsite">Copy</button>
+                </div>
+              </div>
+            </div>
           </div>
 
           <!-- column 2 -->
-          <div class="col-sm-4 border">
-            <h1 class="centerText">Column 2</h1>
+          <div class="col-sm-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">Links</div>
+              <div class="panel-body">
+                <label for="comment">School:</label>
+                <div class="btn-group-vertical width100">
+                  <a href="https://blackboard.missouri.edu/webapps/login/?action=relogin" target="_blank"><button type="button" class="btn btn-primary width100">BlackBoard</button></a>
+                  <a href="https://courses.missouri.edu/" target="_blank"><button type="button" class="btn btn-danger width100">Canvas</button></a>
+                  <a href="https://myzou.missouri.edu/psp/csprdc/?cmd=login" target="_blank"><button type="button" class="btn btn-primary width100">MyZou</button></a>
+                  <a href="https://github.com/aaraza/databases" target="_blank"><button type="button" class="btn btn-danger width100">CS3380 TA GitHub</button></a>
+                  <a href="https://fonts.google.com" target="_blank"><button type="button" class="btn btn-primary width100">Google Fonts</button></a>
+                </div>
+                <label class="paddingTop2" for="comment">Code:</label>
+                <div class="btn-group-vertical width100">
+                  <a href="https://fonts.google.com" target="_blank"><button type="button" class="btn btn-primary width100">Google Fonts</button></a>
+                  <a href="https://github.com" target="_blank"><button type="button" class="btn btn-danger width100">GitHub</button></a>
+                  <a href="https://www.w3schools.com/" target="_blank"><button type="button" class="btn btn-primary width100">W3Schools</button></a>
+                </div>
+                <label class="paddingTop2" for="comment">Web Dev LocalHosts:</label>
+                <div class="btn-group-vertical width100">
+                  <a href="http://localhost:1234/home" target="_blank"><button type="button" class="btn btn-primary width100">TCI Connect</button></a>
+                </div>
+              </div>
+            </div>
           </div>
 
           <!-- column 3 -->
-          <div class="col-sm-4 border">
-            <h1 class="centerText">Column 3</h1>
+          <div class="col-sm-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">World News:</div>
+              <div class="panel-body">
+                <script src='https://redditjs.com/subreddit.js' data-subreddit="worldnews" data-width="100%" data-theme="dark"></script>
+              </div>
+            </div>
           </div>
 
       <!-- end container and jumbotron -->
