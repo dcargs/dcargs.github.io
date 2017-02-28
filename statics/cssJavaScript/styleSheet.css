@@ -18,3 +18,7 @@
 .blackText {
   color: black;
 }
+
+#column3 {
+  display: inline-block;
+}

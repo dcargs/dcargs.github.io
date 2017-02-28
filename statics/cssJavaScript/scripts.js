@@ -26,6 +26,16 @@ function updateClock ( )
 $(document).ready(function()
 {
    setInterval('updateClock()', 1000);
+   if( $(window).width() < 1000) {
+     $("#column1").hide();
+     $("#column3").hide();
+     $("#column2").removeClass("col-sm-4").addClass("col-sm-12");
+     $("#header").removeClass("col-lg-12").addClass("col-sm-12");
+   } else {
+     $("#column1").addClass("col-sm-4");
+     $("#column2").addClass("col-sm-4");
+     $("#column2").addClass("col-sm-4");
+   }
    document.getElementById("copyButtonHome").addEventListener("click", function() {
        copyToClipboard(document.getElementById("copyTargetHome"));
    });
