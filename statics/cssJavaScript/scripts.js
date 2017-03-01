@@ -27,6 +27,7 @@ $(document).ready(function()
 {
    setInterval('updateClock()', 1000);
    if( $(window).width() < 1000) {
+     $("#clock").hide();
      $("#column1").hide();
      $("#column3").hide();
      $("#column2").removeClass("col-sm-4").addClass("col-sm-12");
