@@ -40,17 +40,14 @@ $(document).ready(function()
    document.getElementById("copyButtonHome").addEventListener("click", function() {
        copyToClipboard(document.getElementById("copyTargetHome"));
    });
-   document.getElementById("copyButtonCS2830").addEventListener("click", function() {
-       copyToClipboard(document.getElementById("copyTargetCS2830"));
-   });
    document.getElementById("copyButtonCS3380").addEventListener("click", function() {
        copyToClipboard(document.getElementById("copyTargetCS3380"));
    });
    document.getElementById("copyButtonTCI").addEventListener("click", function() {
        copyToClipboard(document.getElementById("copyTargetTCI"));
    });
-   document.getElementById("copyButtonHenryWebsite").addEventListener("click", function() {
-       copyToClipboard(document.getElementById("copyTargetHenryWebsite"));
+   document.getElementById("copyButtonMizzouCode").addEventListener("click", function() {
+       copyToClipboard(document.getElementById("copyTargetMizzouCode"));
    });
 });
 
